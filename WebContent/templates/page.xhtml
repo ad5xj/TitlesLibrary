@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:h="http://java.sun.com/jsf/html">
+ <h:head>
+    <title><ui:insert name="title">Titles Library</ui:insert></title>
+    <link href="#{facesContext.externalContext.requestContextPath}/CSS/basestyle.css" rel="stylesheet" type="text/css" />
+     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+     <link href="https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei" rel="stylesheet">
+ </h:head>
+ <body>
+   <div id="header">
+     <ui:insert name="header">
+       <ui:include src="/WEB-INF/templates/header.xhtml"/>
+     </ui:insert>
+   </div>
+   <div id="main">
+     <ui:insert name="main"/>
+   </div>
+   <div id="footer">
+     <ui:insert name="footer">
+       <ui:include src="/WEB-INF/templates/footer.xhtml"/>
+    </ui:insert>
+   </div>
+ </body>
+</html>

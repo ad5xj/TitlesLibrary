@@ -1,0 +1,8 @@
+/* BASE STYLES FOR THE PROJECT */
+body { font-family: 'Liberation Sans',Helvetica,sans-serif; font-size: 16pt; width: 70%; }
+h1   { text-align: center; }
+table { display: table; }
+form    { display: inline-block; text-align: center; }
+form tr { display: table-row; }
+form th { display: table-header-group; }
+form td { display: table-cell; }

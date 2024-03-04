@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:ui="..." xmlns:h="..." xmlns:p="...">
+<ui:composition template="/WEB-INF/templates/page.xhtml">
+    <ui:define name="main">
+        <h:form id="createUserForm">
+            <h:panelGrid columns="2">
+                <h:outputLabel for="userid" value="ID#: " />
+                <h:inputText id="userid" value="#{user.userid}" />
+                <h:outputLabel for="login" value="Lognin ID: " />
+                <h:inputText id="login" value="#{user.login}" />
+                <h:outputLabel for="username" value="Full Name: " />
+                <h:inputText id="username" p:type="text" value="#{user.userName}" />
+                <h:outputLabel for="userpwd" value="Password: " />
+                <h:inputText id="userpwd" p:type="password" value="#{user.userPasswd}" />
+            </h:panelGrid>
+            <h:commandButton value="Create" action="#{bookCtrl.add(user.userid, user.login, user.userName, user.userPasswd)}"/>
+        </h:form>
+        <h:button value="Main menu" outcome="index" />
+    </ui:define>
+</ui:composition>
+</html>
