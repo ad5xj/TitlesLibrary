@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JpaBuddyIdeaProjectConfig">
+    <option name="defaultUnitInitialized" value="true" />
+    <option name="renamerInitialized" value="true" />
+    <option name="reverseEngineeringLastDbConnectionId" value="03f6d96a-1e78-4378-82ce-71ee2a0de2cb__libraryDB" />
+    <option name="reLastEntityCreationPackage" value="src/org/ad5xj/mariadb" />
+  </component>
+</project>

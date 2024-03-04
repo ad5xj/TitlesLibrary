@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="IocStateComponent">
+    <option name="beanInjectionMinSymbols" value="10" />
+  </component>
+  <component name="JpaPluginProjectSettings">
+    <option name="entityNameTemplate" value="${className}" />
+    <option name="generateTypeOnEntity" value="true" />
+    <option name="scaffoldingLanguage" />
+  </component>
+  <component name="PersistenceUnitSettings">
+    <persistence-units>
+      <persistence-unit name="LibraryPersist" persistenceXmlPath="src/main/resources/META-INF/persistence.xml">
+        <packages>
+          <package value="org.ad5xj.mariadb" />
+        </packages>
+      </persistence-unit>
+    </persistence-units>
+  </component>
+</project>
